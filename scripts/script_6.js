@@ -1,4 +1,4 @@
-prompt("This is script 5: 2.3.2. Librarian. Press <F12> then <OK> to continue.")
+prompt("This is script 6: 2.4.1. Code of life. Press <F12> then <OK> to continue.")
 {
   // basical settings
   let rnas= ['CCGUCGUUGCGCUACAGC','CCUCGCCGGUACUUCUCG'];
