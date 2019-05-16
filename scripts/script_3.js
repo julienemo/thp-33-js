@@ -1,6 +1,6 @@
-console.log("script 3");
+prompt("This is script 3: 2.2.2.: Mario's pyramid. Press <F12> then <OK> to continue.")
+
 {
-  console.log("2.2.2.: Mario's pyramid");
   let x;
   while (true)
   {

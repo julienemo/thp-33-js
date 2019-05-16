@@ -2,11 +2,13 @@ prompt("This is script 6: 2.4.1. Code of life . Press <F12> then <OK> to continu
 {
   // basical settings
   let rnas= ['CCGUCGUUGCGCUACAGC','CCUCGCCGGUACUUCUCG'];
+  console.log("The two original strings are:")
   for (let i in rnas){
     if (rnas[i].length % 3 !== 0 ){
       console.log("At least one of the RNA strings has the wrong number of letters.")
       throw "Go check your stuff and come back later.";
     } else {
+      console.log(`---${rnas[i]}`)
         rnas[i] = rnas[i].match(/.{1,3}/g);
         for (n in rnas[i]){
           switch (rnas[i][n]) {
@@ -49,7 +51,7 @@ prompt("This is script 6: 2.4.1. Code of life . Press <F12> then <OK> to continu
         rnas[i] = rnas[i].join("-")
     }
   }
-
+  console.log("")
   console.log("The two RNA strings are:")
   for (let i in rnas){
     console.log(`---${rnas[i]}`);

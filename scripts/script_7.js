@@ -1,4 +1,4 @@
-prompt("This is script 7: 2.4.2. Teen Bot . Press <F12> then <OK> to continue.")
+console.log("script 7: 2.4.2. Teen Bot.")
 { console.log("Mooooorniiiing. This is your teeeeen bot...Can I heeeeelp?")
   let answer;
   let question;
@@ -10,7 +10,7 @@ prompt("This is script 7: 2.4.2. Teen Bot . Press <F12> then <OK> to continue.")
       answer = "Ouais ouais...";
     } else if (question === question.toUpperCase()){
       answer = "Pwaaaaa, calme-tooooooi..."
-    } else if (question.toLowerCase().includes("fornite")){
+    } else if (question.toLowerCase().includes("Fornite")){
       answer = "on s' fait une partie soum-soum ?"
     } else {
       answer = "BA-LE-QUE!"

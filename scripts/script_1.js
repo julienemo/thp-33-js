@@ -1,7 +1,7 @@
-console.log("script 1");
-console.log("2.1.1.: Hello world!");
+console.log("script 1: 2.1.1.: Hello world!")
 
 {
+  console.log("Hello world!")
   let name;
   while (true) {
     name = prompt("2.1.2.: What is your name?");

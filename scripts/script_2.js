@@ -1,6 +1,5 @@
-console.log("script 2");
+console.log("script 2: 2.2.1.: quick maths.")
 {
-  console.log("2.2.1.: quick maths");
   let x;
   while (true)
   {
